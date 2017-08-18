@@ -1,0 +1,64 @@
+body{
+  margin: 70px 0;
+  padding: 0;
+  font-family: "lato", "sans-serif";
+  background: url('https://static.pexels.com/photos/149522/pexels-photo-149522.jpeg');
+}
+.diviseur{
+  width: 100px;
+  height: 2px;
+  background: red;
+  margin: 0 auto;
+  text-align: center;
+}
+.heading{
+  text-align: center;
+  margin-bottom: 60px;
+}
+#contactME{
+   text-transform: uppercase;
+   color: #fff;
+}
+#contact-form{
+  font-size: 15px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+}
+.blue{
+  color: red;
+}
+.form-control{
+  height: 40px;
+  font-size: 15px;
+}
+.comments{
+  font-size: 15px;
+  font-style: italic;
+  color:red;
+  height:25px;
+}
+#contact-form input[type=submit]{
+  margin:40px auto 0;
+  display: block;
+}
+.envoyer{
+  border:1px solid gray;
+  background: gray;
+  width: 50%;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 18px;
+  transition: all 0.3s ease-in 0s;
+}
+.envoyer:hover{
+  background: blue;
+  border-color: gray;
+}
+.merci{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
